@@ -143,7 +143,7 @@ The following table compares the three implementations at two recall targets on 
 | Recall target | Implementation | Recall@10 | p50 latency (ms) | p99 latency (ms) | p50 speedup |
 |---|---|---|---|---|---|
 | About 0.90 | Lucene engine | 0.902 | 4.90 | 20.26 | 1× |
-| About 0.90 | Native, shared layout | 0.899 | 0.59 | 2.79 | 8.3× |
+| About 0.90 | Native, shared layout | 0.892 | 0.72 | 3.84 | 6.8× |
 | About 0.90 | Native, per-block layout | 0.903 | 0.38 | 1.32 | 12.8× |
 | About 0.96 | Lucene engine | 0.959 | 28.17 | 73.23 | 1× |
 | About 0.96 | Native, shared layout | 0.960 | 4.85 | 13.85 | 5.8× |
